@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj": {}
+  },
+  "projects": {
+    "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
+        "projectName": "Event.DataAccess",
+        "projectPath": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\jeem2\\.nuget\\packages\\",
+        "outputPath": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jeem2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

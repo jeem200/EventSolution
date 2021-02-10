@@ -1,0 +1,9 @@
+F:\New folder\New folder\Tawhid\EventSolution\Event.DataAccess\bin\Debug\netcoreapp3.1\Event.DataAccess.deps.json
+F:\New folder\New folder\Tawhid\EventSolution\Event.DataAccess\bin\Debug\netcoreapp3.1\Event.DataAccess.dll
+F:\New folder\New folder\Tawhid\EventSolution\Event.DataAccess\bin\Debug\netcoreapp3.1\Event.DataAccess.pdb
+F:\New folder\New folder\Tawhid\EventSolution\Event.DataAccess\obj\Debug\netcoreapp3.1\Event.DataAccess.AssemblyInfoInputs.cache
+F:\New folder\New folder\Tawhid\EventSolution\Event.DataAccess\obj\Debug\netcoreapp3.1\Event.DataAccess.AssemblyInfo.cs
+F:\New folder\New folder\Tawhid\EventSolution\Event.DataAccess\obj\Debug\netcoreapp3.1\Event.DataAccess.csproj.CoreCompileInputs.cache
+F:\New folder\New folder\Tawhid\EventSolution\Event.DataAccess\obj\Debug\netcoreapp3.1\Event.DataAccess.dll
+F:\New folder\New folder\Tawhid\EventSolution\Event.DataAccess\obj\Debug\netcoreapp3.1\Event.DataAccess.pdb
+F:\New folder\New folder\Tawhid\EventSolution\Event.DataAccess\obj\Debug\netcoreapp3.1\Event.DataAccess.csprojAssemblyReference.cache
