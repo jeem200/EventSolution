@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\New folder\\New folder\\Tawhid\\EventSolution\\EventSolution\\EventSolution.csproj": {}
+    "F:\\New folder\\New folder\\Azure\\EventSolution\\EventSolution\\EventSolution.csproj": {}
   },
   "projects": {
-    "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj": {
+    "F:\\New folder\\New folder\\Azure\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
+        "projectUniqueName": "F:\\New folder\\New folder\\Azure\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
         "projectName": "Event.DataAccess",
-        "projectPath": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
+        "projectPath": "F:\\New folder\\New folder\\Azure\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
         "packagesPath": "C:\\Users\\jeem2\\.nuget\\packages\\",
-        "outputPath": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\obj\\",
+        "outputPath": "F:\\New folder\\New folder\\Azure\\EventSolution\\Event.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeem2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "F:\\New folder\\New folder\\Tawhid\\EventSolution\\EventSolution\\EventSolution.csproj": {
+    "F:\\New folder\\New folder\\Azure\\EventSolution\\EventSolution\\EventSolution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\EventSolution\\EventSolution.csproj",
+        "projectUniqueName": "F:\\New folder\\New folder\\Azure\\EventSolution\\EventSolution\\EventSolution.csproj",
         "projectName": "EventSolution",
-        "projectPath": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\EventSolution\\EventSolution.csproj",
+        "projectPath": "F:\\New folder\\New folder\\Azure\\EventSolution\\EventSolution\\EventSolution.csproj",
         "packagesPath": "C:\\Users\\jeem2\\.nuget\\packages\\",
-        "outputPath": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\EventSolution\\obj\\",
+        "outputPath": "F:\\New folder\\New folder\\Azure\\EventSolution\\EventSolution\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeem2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj": {
-                "projectPath": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj"
+              "F:\\New folder\\New folder\\Azure\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj": {
+                "projectPath": "F:\\New folder\\New folder\\Azure\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj"
               }
             }
           }
@@ -104,6 +104,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.11.6, )"

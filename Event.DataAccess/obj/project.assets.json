@@ -4794,11 +4794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
+      "projectUniqueName": "F:\\New folder\\New folder\\Azure\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
       "projectName": "Event.DataAccess",
-      "projectPath": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
+      "projectPath": "F:\\New folder\\New folder\\Azure\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
       "packagesPath": "C:\\Users\\jeem2\\.nuget\\packages\\",
-      "outputPath": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\obj\\",
+      "outputPath": "F:\\New folder\\New folder\\Azure\\EventSolution\\Event.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jeem2\\AppData\\Roaming\\NuGet\\NuGet.Config",

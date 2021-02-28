@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EaVmo7asq12cvanxJfdtzuesem3vFAtYIjJe7v0kId4gZBXhJUr02wyqD0eRj4oqXaa9iyA8IukNMpaUvJpmCQ==",
+  "dgSpecHash": "PbirsZ6wejh4MSqa9TH5HWzbrWyn+QWXyYnWl1uMdiq2qtjjWKtJblkeod4RHOe6UF8qoxrJ9la3eTqnnkhCxQ==",
   "success": true,
-  "projectFilePath": "F:\\New folder\\New folder\\Tawhid\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
+  "projectFilePath": "F:\\New folder\\New folder\\Azure\\EventSolution\\Event.DataAccess\\Event.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jeem2\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\jeem2\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",

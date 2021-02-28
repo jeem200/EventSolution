@@ -1,5 +1,4 @@
 ﻿using Event.DataAccess.Models;
-using EventSolution.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
@@ -13,52 +12,51 @@ namespace EventSolution.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class VendorController : ControllerBase
+    public class CustomerController : ControllerBase
     {
-        private IMongoCollection<VendorModel> _vendorModel;
-       
-        public VendorController(IMongoClient client)
+        private IMongoCollection<CustomerModel> _customerModel;
+
+        public CustomerController(IMongoClient client)
         {
             var database = client.GetDatabase("EventSoultion");
-            _vendorModel = database.GetCollection<VendorModel>("Vendors");
+            _customerModel = database.GetCollection<CustomerModel>("Customers");
         }
 
         [HttpGet]
-        public IEnumerable<VendorModel> Get()
+        public IEnumerable<CustomerModel> Get()
         {
-           return _vendorModel.Find(new BsonDocument()).ToList();
+            return _customerModel.Find(new BsonDocument()).ToList();
         }
 
-       
+
         [HttpGet("{id}")]
         public IActionResult Get(string Id)
         {
-            try 
+            try
             {
                 ObjectId id = new ObjectId(Id);
-              
+
                 var filter = new BsonDocument { { "_id", id } };
-                return Ok( _vendorModel.Find(filter).First());
+                return Ok(_customerModel.Find(filter).First());
 
             }
             catch (Exception e)
             {
-                
                 return BadRequest(e);
             }
         }
 
 
         [HttpPost]
-       
-        public IActionResult post(VendorModel model)
+
+        public IActionResult post(CustomerModel model)
         {
-            try 
+            try
             {
-                _vendorModel.InsertOne(model);
+                _customerModel.InsertOne(model);
                 return Ok(model);
             }
-            catch (Exception e) 
+            catch (Exception e)
             {
                 return BadRequest(e);
             }
@@ -71,16 +69,16 @@ namespace EventSolution.Controllers
             try
             {
                 ObjectId id = new ObjectId(Id);
+             
                 var filter = new BsonDocument { { "_id", id } };
-                return Ok(_vendorModel.DeleteOne(filter));
+                return Ok(_customerModel.DeleteOne(filter));
 
             }
             catch (Exception e)
             {
-               
-                return BadRequest (e);
+
+                return BadRequest(e);
             }
         }
-
     }
 }

@@ -12,13 +12,34 @@ namespace Event.DataAccess.Models
         //[BsonId]
         //public ObjectId Id { get; set; }
 
-        [BsonElement("ServiceName")]
-        public string ServiceName { get; set; }
+        [BsonElement("ItemName")]
+        public string ItemName { get; set; }
 
-        [BsonElement("MinPrice")]
-        public int MinPrice { get; set; }
+        [BsonElement("ItemType")]
+        public string ItemType { get; set; }
 
-        [BsonElement("MaxPrice")]
-        public int MaxPrice { get; set; }
+        [BsonElement("ItemPrice")]
+        public int ItemPrice { get; set; }
+
+        [BsonElement("ItemCode")]
+        public string ItemCode { get; set; }
+
+        [BsonElement("ItemDescription")]
+        public string ItemDescription { get; set; }
+
+        [BsonElement("ItemComponent")]
+
+        public List<string> ItemComponent { get; set; }
+
+        [BsonElement("MediaLocation")]
+        public List<string> MediaLocation { get; set; }
+
+        [BsonElement("MinGuest")]
+        public int MinGuest { get; set; }
+
+        [BsonElement("MaxGuest")]
+        public int MaxGuest { get; set; }
+
+
     }
 }

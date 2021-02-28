@@ -16,6 +16,7 @@ namespace EventSolution
 {
     public class Startup
     {
+        readonly string CorsAllow = "CorsAllow";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -26,6 +27,16 @@ namespace EventSolution
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: "CorsAllow",
+                                  builder =>
+                                  {
+                                      builder.AllowAnyOrigin()
+                                             .AllowAnyMethod()
+                                             .AllowAnyHeader();
+                                  });
+            });
             services.AddControllers();
             services.AddSingleton<IMongoClient, MongoClient>(s=> {
 
@@ -37,6 +48,7 @@ namespace EventSolution
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors(CorsAllow);
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
