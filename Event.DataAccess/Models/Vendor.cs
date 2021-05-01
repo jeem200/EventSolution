@@ -22,8 +22,16 @@ namespace Event.DataAccess.Models
         [BsonElement("VideoLocation")]
         public string VideoLocation { get; set; }
 
+        [BsonElement("ContactNumber")]
+        public string ContactNumber { get; set; }
+
         [BsonElement("NoOfCollab")]
         public int NoOfCollab { get; set; }
+
+       
+
+        [BsonElement("Address")]
+        public string Address { get; set; }
 
         [BsonElement("ServiceType")]
         public List<ServiceTypeModel> ServiceType { get; set; }

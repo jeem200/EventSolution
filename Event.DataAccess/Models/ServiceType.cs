@@ -40,6 +40,9 @@ namespace Event.DataAccess.Models
         [BsonElement("MaxGuest")]
         public int MaxGuest { get; set; }
 
+        [BsonElement("Capacity")]
+        public int Capacity { get; set; }
+
 
     }
 }
